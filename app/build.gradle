@@ -25,7 +25,6 @@ buildscript {
         mavenLocal()
         jcenter()
         maven { url 'https://jitpack.io' }
-        maven { url 'http://dl.bintray.com/e13mort/maven' }
     }
     dependencies {
         classpath 'com.github.e13mort:stf-gradle-plugin:0.2.3'
